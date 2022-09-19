@@ -1,0 +1,8 @@
+
+
+ifort -qopenmp -traceback -o EPIC_sumlayers_weighted_NOx_kgN.exe EPIC_sumlayers_weighted_NVARS.f -I/home/ll70/libs/netcdf/include -I/home/ll70/libs/ioapi3.1/Linux2_x86_64ifort -I/home/ll70/libs/ioapi3.1/ioapi/fixed_src -L/home/ll70/libs/ioapi3.1/Linux2_x86_64ifort -lioapi -L/home/ll70/libs/netcdf/lib -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -lz
+
+
+
+
+

@@ -1,0 +1,3 @@
+# Lina Luo
+NOX_CRF.exe output: hourly CRF 
+NOX_CRF_AVE.exe output: daily average CRF=average(hourly CRF)

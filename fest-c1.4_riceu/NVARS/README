@@ -1,0 +1,15 @@
+#
+Function: calculates the N emissions with consideration of canopy reduction factor and then sum
+layer weighted output and only write N related var to output.
+Source code: EPIC_sumlayers_weighted_crf_allinone_NVARS.f 
+
+   Input units: kgN/ha
+   Output units: kgN
+   exe: EPIC_sumlayers_weighted_crfNOx_kgN.exe
+   scripts: run_cropf_sum_crf_NVARS.csh 
+Input beld4 file: (1) 42 layers cropf; (2) epic 20220711 version daily outputs
+!!! NOTE: cannot use for other version FEST-C only 20220711
+
+
+
+
